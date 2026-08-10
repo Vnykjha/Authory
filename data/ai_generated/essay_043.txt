@@ -1,0 +1,6 @@
+# source: ShashiVish/Fake-Essay-Detection-Dataset
+# original_id: 9AFAE6562E98
+# label: ai
+# category: ai_generated
+
+Staying active is an important part of achieving a sense of accomplishment. Physical activity not only has the benefit of improved physical health, but also positive mental and emotional wellbeing. Regular exercise releases feel-good endorphins and can reduce stress. If individuals feel like they are working towards a goal, such as an increased level of fitness, this can be a great source of motivation to stay active. Moreover, taking part in physical activities can be a great way to connect with other people, fostering a sense of belonging to the community. Activities can help to build self-confidence, determine core values, and help in making positive choices by increasing knowledge and understanding. Allocating time for activities, no matter how big or small, is crucial in cultivating a habit. It is all about finding and creating motivation through developing skills, setting objectives, and maintaining a positive attitude about progress.

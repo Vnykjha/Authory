@@ -1,0 +1,10 @@
+# source: ShashiVish/Fake-Essay-Detection-Dataset
+# original_id: D390FE972D8F
+# label: ai
+# category: ai_generated
+
+One of the most important benefits of adding healthier food options in school cafeterias is improved overall health. Eating a nutritious and balanced diet is essential for a developing body and mind, and incorporating healthier options into meal plans ensures that students are receiving the nutrients they need. Research also shows that making healthier options available increases the likelihood that students will make better eating choices. Additionally, providing healthy selections can help combat issues like childhood obesity and chronic illnesses. 
+
+ Another advantage of adding healthier food items to school cafeterias is that it teaches students the importance of making good nutrition choices.  Instilling healthy habits in younger generations can lead to better health outcomes later in life. By exposing students to a variety of nutritious options, it can make healthy eating seem less overwhelming and more achievable. Finally, including more health options can also be an affordable way for schools to improve overall student wellbeing. Introducing cheaper, healthier items such as fruits and vegetables can have positive impacts on students’ health without significantly increasing costs. 
+
+In conclusion, changing the cafeteria menu to include more healthy food options is an incredibly beneficial decision for schools and students alike. Not only does it improve students’ health, it also teaches them the importance of good nutrition and can even be a cost-effective initiative.

@@ -1,0 +1,8 @@
+# source: hybrid_generation
+# base_essay: essay_005.txt
+# polish_model: gpt2-medium
+# prompt: "Improve this college admissions essay for clarity, flow, and impact. Keep the same core story and voice."
+# temperature: 0.7
+# category: hybrid
+
+aged homes, many apartments attached together within small lots making them incredibly affordable compared those larger mansions built around big highways. These buildings may look like typical apartment blocks being designed over several years before you notice any noticeable difference between what appears on the surface level versus inside your mind when looking through the windows because we all know how crazy our minds can get if things don't fit properly according time frame after event due so much attention paid to everything else? So why bother changing anything about ourselves while leaving behind something special which will last us forever ? Why should I care whether my body does good work instead now just knowing i won't die old age slowly rot me off an ocean bed , maybe then im free ?????? This idea was created earlier today here . You could say someone did nothing wrong since he made his living selling drugs ! Who knows who started thinking outside (for once) ways forward.. Maybe humanity needs another push towards reducing carbon emissions too !!

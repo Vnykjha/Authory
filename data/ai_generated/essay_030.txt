@@ -1,0 +1,14 @@
+# source: ShashiVish/Fake-Essay-Detection-Dataset
+# original_id: toefl_1758
+# label: ai
+# category: ai_generated
+
+There are many factors that contribute to how much someone enjoys life. Age is just one of those factors. In general, younger people tend to enjoy life more than older people do. There are several reasons for this.
+
+First, younger people are generally more physically active than older people. They have more energy and are able to do more things. They can go out and party all night, or go on a hike, or play sports. They can do things that older people simply can’t do because they don’t have the same level of physical fitness.
+
+Second, younger people are generally more optimistic than older people. They haven’t been through as much in life and so they haven’t had their hopes and dreams dashed as often. They still believe that anything is possible and that the future will be better than the present. Older people, on the other hand, often become more cynical and pessimistic. They’ve seen too much of life’s disappointments and so they’re not as easily excited about things.
+
+Third, younger people are generally more social than older people. They’re still in school or just starting out in their careers, so they’re around other people their own age all the time. They’re making new friends and discovering new things about themselves and the world. Older people, on the other hand, often become more isolated. They retire from their jobs and their kids move out of the house. They don’t have as many opportunities to meet new people and do new things.
+
+There are, of course, exceptions to all of these generalizations. There are some older people who are more physically active than some younger people. There are some older people who are more optimistic than some younger people. And there are some older people who are more social than some younger people. But in general, younger people tend to enjoy life more than older people do.

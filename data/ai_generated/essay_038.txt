@@ -1,0 +1,10 @@
+# source: ShashiVish/Fake-Essay-Detection-Dataset
+# original_id: A2EF5BCC488B
+# label: ai
+# category: ai_generated
+
+I have personally experienced the empowerment that comes from rising to the challenge of something I have never done before. I once set a goal of running a half marathon, a goal that seemed lofty and daunting given that I was a beginner runner. In order to meet this goal, I had to commit to regular running and to gradually increase the duration and intensity of my runs. With persistence, I was able to achieve my goal and even surpass it. I discovered a huge sense of satisfaction and accomplishment from pushing myself beyond my physical and mental limitations. 
+
+Alternatively, I witnessed the opposite situation when someone I knew set a goal that they were unable to reach. Despite their initial enthusiasm for their goal, they eventually lacked the confidence and perseverance to stay committed to the goal. They felt a sense of failure and disappointment quite keenly and I could see how this had the potential to discourage them from doing things that were outside of their comfort zone. 
+
+Ralph Waldo Emerson's quote "Unless you try to do something beyond what you have already mastered, you will never grow" is highly applicable here. Although growing requires a degree of risk and vulnerability, it is those who take such risks and step outside of their comfort zones who find the greatest rewards.

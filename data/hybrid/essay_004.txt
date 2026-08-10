@@ -1,0 +1,8 @@
+# source: hybrid_generation
+# base_essay: essay_004.txt
+# polish_model: gpt2-medium
+# prompt: "Improve this college admissions essay for clarity, flow, and impact. Keep the same core story and voice."
+# temperature: 0.7
+# category: hybrid
+
+ending fraud as we know it today where certain groups are able t o control our government without us knowing their identity or power over them.

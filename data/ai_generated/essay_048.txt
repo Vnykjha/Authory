@@ -1,0 +1,6 @@
+# source: ShashiVish/Fake-Essay-Detection-Dataset
+# original_id: EF8047505E53
+# label: ai
+# category: ai_generated
+
+When it comes to personal development and success, there is often a need to make a choice between being productive and being idle. Being productive is linked to developing new strengths, talents, and abilities that can lead to greater success in life. By working hard and pushing yourself to go above and beyond, you can develop the skills and knowledge needed to be successful. On the other hand, sometimes being idle and taking a break from work can be just as beneficial. Taking a step back provides an opportunity for self-reflection and rejuvenation, enabling you to find clarity, focus, and inner peace. Ultimately, it is up to the individual to decide which approach is best suited to their current situation, but both being productive and being idle can lead to personal growth and success.

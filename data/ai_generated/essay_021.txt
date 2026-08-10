@@ -1,0 +1,6 @@
+# source: ShashiVish/Fake-Essay-Detection-Dataset
+# original_id: toefl_3732
+# label: ai
+# category: ai_generated
+
+In the world, people generally like to travelling different countries. Traveling in groups is one of the best ways to experience different cultures, and to learn about different ways of life. It is also a great way for people to get to know each other better. If you travel alone, you may not get the chance to meet new people, learn new things and make new friends. You may also miss out on some great experiences. However, if you are travelling with others, then you will be able to share your experiences and learn from others' experiences, which will help you to become a better traveller in the future.

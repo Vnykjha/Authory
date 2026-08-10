@@ -1,0 +1,10 @@
+# source: ShashiVish/Fake-Essay-Detection-Dataset
+# original_id: toefl_95
+# label: ai
+# category: ai_generated
+
+I believe that young people nowadays do not give enough time to helping their communities. I have had the opportunity to observe this myself, as I have been working as a volunteer in a local organization for the past few years. I have seen first-hand how young people can make a difference in their community by volunteering and giving back to their community.
+
+Volunteering has the ability to change a community for the better. It can make people more care about their community and make them more willing to help. It also helps to build relationships with people in the community. When people are able to connect with each other, they are more likely to be more willing to help.
+
+In my experience, volunteering has helped to make a difference in my community. I have been able to learn a lot about my community and it's people. I have also been able to make new friends and learn more about the local culture. I believe that volunteering is a great way to make a difference in your community and make a positive impact.

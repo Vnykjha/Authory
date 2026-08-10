@@ -1,0 +1,10 @@
+# source: ShashiVish/Fake-Essay-Detection-Dataset
+# original_id: 6C802D3F5F2A
+# label: ai
+# category: ai_generated
+
+In recent years, much research has been done to determine whether true self-esteem comes from praise or achievement. Some studies have indicated that children who are regularly praised for improvement or progress experience higher self-esteem; however, this is not the same as true self-esteem. True self-esteem can only be derived from a sense of accomplishment or success. 
+
+Giving praise for deficient work can have a negative effect on a student's learning. In these cases, the student is not being held to a high enough standard and has little incentive to strive for excellence. If praise is used in this manner, it may actually do more harm than good by instilling in the student a false sense of achievement and security.
+
+While praise can be an important factor in a student's overall success, it cannot be the sole source of true self-esteem. Achievement is ultimately the more effective source of true self-esteem, as it is based on hard work and tangible results. Ultimately, both praise and achievement can be essential tools for helping students develop self-esteem, but ultimately achieving success is the best way for students to gain a true sense of self-worth.

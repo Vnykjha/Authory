@@ -1,0 +1,6 @@
+# source: ShashiVish/Fake-Essay-Detection-Dataset
+# original_id: toefl_2248
+# label: ai
+# category: ai_generated
+
+I disagree with the statement that Nowadays Young people should not participated in Community programs. Becuse nowadays most of the people are educated and they are realized and planning in what way they can help to the people. Recently Tsunami occured in srilanka, at that time group of engineers from india went to that place and helping for their construction of shelters and arranged the necessary goods like food, clothing for them. Because "Servicing to the people is Servicing to the God".

@@ -1,0 +1,8 @@
+# source: hybrid_generation
+# base_essay: essay_013.txt
+# polish_model: gpt2-medium
+# prompt: "Improve this college admissions essay for clarity, flow, and impact. Keep the same core story and voice."
+# temperature: 0.7
+# category: hybrid
+
+affected by the low levels are working classes feeling better off now since they never thought their daily commute through town will get so bad after all these years. The average person does feel proud when he knows his friends helped him achieve something such big thanksgiving! No wonder France gets top marks among nations according even though its population remains nearly 10% below what Britain's did before World War II. By banning vehicles you may save lives at least temporarily without killing millions upon billions of humans every year.

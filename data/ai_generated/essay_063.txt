@@ -1,0 +1,6 @@
+# source: ShashiVish/Fake-Essay-Detection-Dataset
+# original_id: 66133AC6189A
+# label: ai
+# category: ai_generated
+
+First impressions, the initial evaluation of another person or situation, are frequently believed to be highly influential and resistant to change. Many studies have found that people are heavily biased toward initial impressions; once formed, they are difficult to alter.  For example, in the business world, an individual's first impression is often used as the basis for long-term judgements about their personality and capabilities. Also, research has consistently shown that hiring decisions are strongly influenced by first impressions – a candidate's interview appearance, mannerisms, and written resume usually play a major role in the ultimate xdecision. Overall, it is clear that first impressions often make a lasting impact, and can be difficult to undo.

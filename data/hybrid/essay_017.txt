@@ -1,0 +1,8 @@
+# source: hybrid_generation
+# base_essay: essay_017.txt
+# polish_model: gpt2-medium
+# prompt: "Improve this college admissions essay for clarity, flow, and impact. Keep the same core story and voice."
+# temperature: 0.7
+# category: hybrid
+
+means about 7-8 million tons of carbon dioxide per year would accumulate if everyone drove every day like an average citizen! According [the EPA], just 3/10th of our total transport system (18 billion vehicles) emits CO2 at any given moment, which includes roads, buses & trains, public transit, trucks etc." So it goes onto say here; you can cut your use significantly even though only 1/4th of US population drives everyday…but then again since almost 30% drive daily according government estimates worldwide combined drivers don't count too well anyway either . Not surprisingly after reading such news articles today may wonder whether or when driving will become illegal everywhere..or maybe actually banned altogether due its negative effects against both society AND human health. Even while reducing pollution around us remains important yet most importantly does make sense behind closed doors – what better place to discuss changing behavior through regulations instead …in Germany??

@@ -1,0 +1,15 @@
+# source: chillies/ielts-writing-task2-essays
+# original_id: 63d0febeeb394700194f0925
+# topic: Art
+# question: In many countries, people now wear western clothes such as suits and jeans rather than traditional clothing. Why is this the case? Is this a positive or negative development?
+# overall_band: 8.5
+# label: human
+# category: human_esl
+
+It is observed in many countries that people are adopting western-style clothes instead of traditional attire. There are certain reasons behind this movement and I BELIEVE it is detrimental to host nations.
+
+Admittedly, the influence of western aesthetic preferences was very limited outside the western world in the past. However, thanks to globalization and technology, now clothing companies in western regions undercut local manufacturing costs in other nations due to global interconnectedness, mass production and low-cost delivery. Moreover, social media also plays a major role in spreading western fashion images. Dominantly well-known western brands such as Nike and Louis Vuitton, for example, are usually promoted via advertisements in Asian nations, to which younger generations are CONSTANTLY exposed. Therefore, it is understandable that they would prefer to emulate these avant-garde dressing STYLES from the west. 
+
+The aforementioned reasons can help explain the fact that westernization in clothing diversifies the host culture, especially conventional clothing. In other words, it aggravates the lack of cultural diversity. For instance, the Vietnamese clothing etiquette which requires people to wear ao dai on formal occasions is significantly affected by the adoption of suits and ties from western countries. In addition, the development also spreads the impact of consumerism, especially in clothing, because ubiquitous advertisements of western brands may prompt the native to purchase their products, which can also shift their focus to these garments. 
+
+In conclusion, the effects of globalization that facilitate the introduction of western fashion trends and the virtual world on social media are responsible for the fact that people increasingly opt for them rather than traditional dressing. Nevertheless, this negative tendency is adverse to the locals because of the reduction in cultural diversity and the rise of consumerism.

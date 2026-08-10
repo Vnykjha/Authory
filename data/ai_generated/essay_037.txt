@@ -1,0 +1,16 @@
+# source: ShashiVish/Fake-Essay-Detection-Dataset
+# original_id: 830E5FA9FC72
+# label: ai
+# category: ai_generated
+
+The advancement of technology has caused many negative impacts on people's lives, ranging from cultural, social, and emotional issues to intellectual ones. Culture is the most significantly affected; technology has created a more homogenous and globalized society in which different cultures can easily interact and exchange ideas in ways never before possible. This has many positive effects, but has also caused many cultures to feel homogenized or to disappear altogether.
+
+When it comes to communication, technology is largely responsible for both good and bad. On the one hand, technology has made it easier than ever to connect with people from around the world, but this has also caused a reliance on screens and keyboards as opposed to face-to-face interaction. Ironically, the tools that connect us have caused many of us to become disconnected from those around us.
+
+In terms of knowledge, technology has made valuable information available to all, but has also caused a decrease in analytical and critical thinking skills. With the ease of access to information, many people no longer take the time to carefully analyze and reflect on issues.
+
+Furthermore, technology has had a detrimental effect on curiosity. With the abundance of information at our fingertips, the time and effort spent exploring and discovering new things are on a downward trend.
+
+Lastly, technology has had a profound effect on our happiness. While technology has a vast array of benefits, it has the potential to lead to feelings of isolation, depression, and anxiety when misused. Oftentimes, people are so consumed with technology that they displace their relationships with real people. 
+
+In conclusion, it is obvious that while technology has an array of positives, it has also caused many serious and long-lasting negative effects on people's lives. From cultural homogenization and the displacement of real-world communication to decreased curiosity and overall happiness, it is important to remember the importance of managing technology use responsibly and proactively.

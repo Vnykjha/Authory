@@ -1,0 +1,8 @@
+# source: ShashiVish/Fake-Essay-Detection-Dataset
+# original_id: weccl_5254
+# label: ai
+# category: ai_generated
+
+Sport plays an important part in human life. I think it is a good thing.
+
+What do you think is the most important thing to do in order to improve the quality of life for the people in the Philippines? I would like to see the government take a more active role in improving the lives of Filipinos. We have a lot of problems in our country, and we need to work together to solve them.

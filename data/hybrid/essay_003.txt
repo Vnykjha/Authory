@@ -1,0 +1,8 @@
+# source: hybrid_generation
+# base_essay: essay_003.txt
+# polish_model: gpt2-medium
+# prompt: "Improve this college admissions essay for clarity, flow, and impact. Keep the same core story and voice."
+# temperature: 0.7
+# category: hybrid
+
+(1824-30) But when we look at all 50 States today there is almost none where either side can say any sort Of such laws exist anymore so why should one be allowed again now without someone else saying something different regarding themself? If these things were true here too its very hard enough for us to trust elections through direct voter participation from both sides due everyone wanting their own piece regardless of whether others like me believe those systems work well over time etc. Not having anything concrete against other parties doesn´t make my opinion less valid though! And yes i am talking about Republicans right now!!! Its great fun watching debates live vs cable TV shows during early primary days!!

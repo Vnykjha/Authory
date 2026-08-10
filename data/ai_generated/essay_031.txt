@@ -1,0 +1,6 @@
+# source: ShashiVish/Fake-Essay-Detection-Dataset
+# original_id: DAD01CB5C8D8
+# label: ai
+# category: ai_generated
+
+Having an after school homework club offers significant advantages to students in their academics. For one, it helps them improve their grades, giving them the opportunity to receive support from tutors and peers in tackling difficult material. It also allows students to better reach their educational goals, providing an extra layer of guidance and encouragement in improving their skills and understanding complex concepts. Finally, with the help from the club, students are less likely to forget assignments, allowing them to stay on top of their studies and remain organized.

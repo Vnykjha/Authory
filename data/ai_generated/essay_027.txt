@@ -1,0 +1,10 @@
+# source: ShashiVish/Fake-Essay-Detection-Dataset
+# original_id: weccl_2528
+# label: ai
+# category: ai_generated
+
+There is no doubt that modern technology has made life more convenient than it used to be. For example, we can now use our smartphones to do things that would have been impossible just a few years ago, such as hailing a taxi or ordering food. We can also use apps to keep track of our fitness, our finances, and our social media accounts.
+
+However, some people argue that life was better when technology was simpler. They argue that we are now too reliant on technology and that it is making us less capable of doing things for ourselves. For example, if we can't figure out how to do something on our smartphone, we are likely to give up and ask someone else for help.
+
+Personally, I believe that modern technology has made life more convenient and that this is a good thing. However, I also believe that we need to be careful not to become too reliant on technology. We should use it to make our lives easier, but we should also make sure that we are still able to do things for ourselves.

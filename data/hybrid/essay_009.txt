@@ -1,0 +1,8 @@
+# source: hybrid_generation
+# base_essay: essay_009.txt
+# polish_model: gpt2-medium
+# prompt: "Improve this college admissions essay for clarity, flow, and impact. Keep the same core story and voice."
+# temperature: 0.7
+# category: hybrid
+
+very happy driving get really depressed especially by pollution since no matter what kind there isn't always anything good enough like clean water nearby! The idea of reducing vehicle life could cause problems elsewhere such was another thing I discussed earlier but again i feel strongly these issues should be addressed here now before making big decisions based upon fear alone without evidence/evidence (just look at me!)

@@ -1,0 +1,12 @@
+# source: ShashiVish/Fake-Essay-Detection-Dataset
+# original_id: weccl_1476
+# label: ai
+# category: ai_generated
+
+There are pros and cons to both sides of this argument. On one hand, the government could arguably spend it's money more wisely by investing in medical care and education. On the other hand, building theaters and sports stadiums can create jobs and spur economic growth.
+
+For example, the new stadium in Minneapolis cost $1 billion to build. However, it is estimated that it will create over 4,000 jobs and generate $500 million in economic activity. In addition, the stadium will host major events that will bring tourists to Minneapolis, generating even more revenue for the city.
+
+Similarly, the new theater district in Cleveland cost $275 million to build. However, it is estimated that it will create over 2,000 jobs and generate $500 million in economic activity. The theaters will also bring new tourists to Cleveland, generating revenue for the city.
+
+These examples illustrate that while building theaters and sports stadiums may not be the most important use of government money, it can still have a significant positive impact on the economy.

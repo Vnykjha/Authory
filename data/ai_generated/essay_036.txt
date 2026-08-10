@@ -1,0 +1,14 @@
+# source: ShashiVish/Fake-Essay-Detection-Dataset
+# original_id: weccl_1925
+# label: ai
+# category: ai_generated
+
+In today's world, we have become accustomed to a lifestyle that is characterized by convenience and disposability. From plastic bags to single-use containers, we have created a culture of waste that is having a detrimental impact on our environment. In my opinion, we have indeed become a "throw-away society" and this is evident from the amount of rubbish that we generate and the challenges we face in disposing of it.
+
+One of the main reasons why we have become a throw-away society is because of the convenience that disposable products offer. For instance, plastic bags are cheap, lightweight, and easy to carry, making them a popular choice for shoppers. However, the downside is that they are not biodegradable and can take hundreds of years to decompose. As a result, they end up in landfills or oceans, where they pose a threat to wildlife and the environment.
+
+Another reason why we have become a throw-away society is because of our consumerist culture. We are constantly bombarded with advertisements that encourage us to buy more and more products, many of which are designed to be disposable. For example, single-use coffee cups and water bottles are convenient for people on the go, but they contribute to the growing problem of plastic waste.
+
+Moreover, our throw-away culture is also fueled by the lack of awareness and education about the impact of our actions on the environment. Many people are not aware of the consequences of their actions and do not realize the harm that they are causing. This is why it is important to educate people about the importance of reducing waste and adopting more sustainable practices.
+
+In conclusion, I believe that we have indeed become a throw-away society, and this is evident from the amount of rubbish that we generate and the challenges we face in disposing of it. However, it is not too late to change our ways and adopt more sustainable practices. By reducing our consumption of disposable products, recycling, and educating ourselves and others about the impact of our actions, we can help to create a cleaner and healthier environment for ourselves and future generations.

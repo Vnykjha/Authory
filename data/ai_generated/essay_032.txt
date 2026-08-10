@@ -1,0 +1,6 @@
+# source: ShashiVish/Fake-Essay-Detection-Dataset
+# original_id: F5EA98F42452
+# label: ai
+# category: ai_generated
+
+Japan is an incredible country with a rich culture and fascinating technology. A few well-known dishes from Japan include sushi, sashimi, tempura, and udon. Crime rates in Japan are some of the lowest in the world, making it a safe destination for travelers. Although there are a variety of ways to explore Japanese cities such as walking and biking, the most popular way to get an authentic look is by taking the shinkansen bullet train. Watching videos of people visiting Japan is a great way to get an idea of what to do and places to explore while on vacation. In addition to its captivating cities and tourist attractions, learning the basics of the Japanese language is an excellent way to immerse oneself in the culture.

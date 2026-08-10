@@ -1,0 +1,6 @@
+# source: ShashiVish/Fake-Essay-Detection-Dataset
+# original_id: 97A27B9801B5
+# label: ai
+# category: ai_generated
+
+As being a high school student can be a challenging time, it is important to consider the different career options available. It is beneficial to reflect on not only the career itself, but the benefits that can be gained from such a choice. For example, having clear career objectives and commiting to this can help to motivate students to stay focused during their studies. By understanding their future goals and connecting these to the learning process, it can help to engage them in their work and give them a renewed energy for pursuing their dreams. In addition, having a commitment to a career can provide the focus and outcome necessary to have a successful future. By researching potential career pathways while in high school, students can find an option that will best suit their interests and provide the benefits needed to achieve success.

@@ -1,0 +1,12 @@
+# source: ShashiVish/Fake-Essay-Detection-Dataset
+# original_id: toefl_1703
+# label: ai
+# category: ai_generated
+
+There is no right or wrong answer to this question, as it depends on individual preferences. However, according to a study published in the journal Social Indicators Research, young people generally enjoy life more than older people do.
+
+One of the main reasons for this is that young people are generally more optimistic and have more energy. They are also more likely to take risks and to be creative. As a result, they are often more engaged with their surroundings and enjoy life more fully.
+
+Another reason for the difference in enjoyment of life between young and older people is that older people tend to be more focused on the past. They may have experienced more pain and sorrow, and they may be less interested in new experiences. As a result, they may not be as happy as they could be.
+
+There are, of course, exceptions to this general trend. Some older people may enjoy life more than younger people do, depending on their individual personalities. Additionally, some young people may enjoy life more than others, depending on their circumstances.

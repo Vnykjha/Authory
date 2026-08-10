@@ -1,0 +1,26 @@
+[project]
+name = "ai-essay-detector"
+version = "0.1.0"
+description = "AI detector for college admissions essays — signal-based, not wrapper"
+requires-python = ">=3.10"
+dependencies = [
+    "transformers>=4.40",
+    "torch>=2.3",
+    "scikit-learn>=1.4",
+    "fastapi>=0.110",
+    "uvicorn>=0.29",
+    "pydantic>=2.7",
+    "textstat>=0.7",
+    "spacy>=3.7",
+    "numpy>=1.26",
+    "pandas>=2.2",
+    "joblib>=1.4",
+    "tqdm>=4.66",
+]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

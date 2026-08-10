@@ -1,0 +1,6 @@
+# source: ShashiVish/Fake-Essay-Detection-Dataset
+# original_id: AC692F322516
+# label: ai
+# category: ai_generated
+
+Using cellphones in the classroom is often discouraged due to the high risk of distraction and cheating. When students are distracted by their cellphones, they lack focus on the lesson and struggle to engage with the material. Furthermore, cellphones have the potential to allow students to make inappropriate comments, share inappropriate images, and participate in inappropriate behaviors both in and out of the classroom. In order to use cellphones responsibly in the classroom, students should come up with a set of rules outlining how and when cellphones can be used to benefit learning. By establishing clear boundaries and expectations for cellphones in the classroom, students can help create a safe and distraction-free environment that enhances learning.

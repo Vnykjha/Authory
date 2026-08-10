@@ -1,0 +1,8 @@
+# source: ShashiVish/Fake-Essay-Detection-Dataset
+# original_id: weccl_383
+# label: ai
+# category: ai_generated
+
+I think that children should be taught to cooperate, as it is better for them in the long run. Cooperation is key to success in life, and it is important that children learn this early on. Cooperative play helps children learn to work together and to share, which are essential skills for life. It also helps them to develop a sense of responsibility and a sense of belonging.
+
+When children are taught to compete, they often lose sight of the important things. They forget how to cooperate and how to share. Competition can also lead to frustration and anger, which are not healthy emotions for children. In the long run, it is better for children to learn to cooperate, as this will help them to be successful in life.

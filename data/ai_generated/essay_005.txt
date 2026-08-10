@@ -1,0 +1,8 @@
+# source: ShashiVish/Fake-Essay-Detection-Dataset
+# original_id: weccl_2077
+# label: ai
+# category: ai_generated
+
+Education is one of the most important things we can do for our country and our Globally. A recent study by The World Bank shows that it costs an average of $15,000 per person to educate a girl in her first grade in the developing world. It costs an additional $26,000 per person to educate a boy. This is a huge investment that leaves a lot of people behind.
+
+Education is also a key to economic development. A recent study by the World Bank shows that without education, a country’s economy is 9% more likely to fail than if it has a high level of education. In order to make sure that everyone in our society has the opportunity to get an education, we need to invest in education.

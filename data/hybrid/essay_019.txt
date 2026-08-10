@@ -1,0 +1,8 @@
+# source: hybrid_generation
+# base_essay: essay_019.txt
+# polish_model: gpt2-medium
+# prompt: "Improve this college admissions essay for clarity, flow, and impact. Keep the same core story and voice."
+# temperature: 0.7
+# category: hybrid
+
+from a simple analysis, but trust me on this one. When someone asks why I voted Republican instead (I am no expert), some will respond that my current position isn´t worth getting upset about unless Trump wins again. Well then what if he gets impeached? Or Hillary loses her office due either to corruption within the administration or something else entirely? All these things can happen during elections too, right?! That being considered normal behavior would lead others to assume all electoral systems work exactly how every day lives actually do! They wouldn`ve lost money trying to figure out where those states got theirs back after decades of living under dictatorships without ever knowing anything more than basic facts… No matter though, let us continue our discussion now; Why does America currently use American Electorship?? And since Donald J., has decided to take up residence here thanks mostly once again to two very smart fellow Americans named Jeff Sessions & Rod Rosenstein, lets get started…. First off, What Is US Electorally-Based Voting System?, Part III . Hereafter referred thusly shall remain known collectively as 'the ballot box' – although please note over time any reference to names etc. used herein might become somewhat confusing until corrected/reversed later down through links provided below
