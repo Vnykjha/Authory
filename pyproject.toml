@@ -1,7 +1,7 @@
 [project]
-name = "ai-essay-detector"
+name = "authory"
 version = "0.1.0"
-description = "AI detector for college admissions essays — signal-based, not wrapper"
+description = "Authory — Signal-based AI detector for college admissions essays"
 requires-python = ">=3.10"
 dependencies = [
     "transformers>=4.40",

@@ -1,4 +1,4 @@
-# Evaluation Report: AI Essay Detector
+# Authory — Evaluation Report
 
 ## Overview & Methodology
 This report presents the empirical evaluation results of the signal-based AI Essay Detector on college admissions essays. Evaluation is strictly performed using a **held-out topic split** to test generalization across topics rather than memorizing dataset vocabulary. In addition, non-native English speaker (**ESL**) essays are evaluated separately in a dedicated false-positive analysis.
