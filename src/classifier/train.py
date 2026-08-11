@@ -16,11 +16,16 @@ from sklearn.metrics import classification_report, confusion_matrix
 
 from .split import held_out_topic_split
 
-
-# Non-feature metadata and text columns to exclude from training matrix X
+# Features that belong strictly to sentence-level prediction
+# Exclude global essay-level aggregates so per-sentence signals drive highlighting
 EXCLUDE_COLS = {
     'essay_id', 'sentence_idx', 'text', 'start_char', 'end_char',
-    'label', 'source_category', 'topic'
+    'label', 'source_category', 'topic',
+
+    # Exclude all global essay-level aggregates
+    'burst_ppl_mean', 'burst_ppl_std', 'burst_ppl_cv', 'burst_ppl_iqr',
+    'burst_len_mean', 'burst_len_std', 'burst_len_cv', 'burst_len_iqr',
+    'lex_ttr', 'lex_mtld', 'lex_ai_phrase_count', 'lex_ai_phrase_rate',
 }
 
 
@@ -30,12 +35,9 @@ def prepare_features(df: pd.DataFrame) -> Tuple[np.ndarray, np.ndarray, List[str
     Target y: 1 for 'ai_generated', 0 for human ('human_native' or 'human_esl').
     """
     feature_cols = [c for c in df.columns if c not in EXCLUDE_COLS]
-    # Filter out any non-numeric columns if present
     feature_cols = [c for c in feature_cols if pd.api.types.is_numeric_dtype(df[c])]
 
     X = df[feature_cols].fillna(0).values
-
-    # Binary label: 1 = AI, 0 = Human (hybrid passages treated as AI if labeled so, else by label)
     y = (df['label'] == 'ai_generated').astype(int).values
 
     return X, y, feature_cols
@@ -98,49 +100,9 @@ def train_logreg(
     return {
         'model': pipe,
         'feature_cols': feature_cols,
-        'metrics': metrics,
         'feature_importance': feature_importance,
-        'y_test': y_test,
-        'y_pred': y_pred,
-        'y_proba': y_proba,
+        'metrics': metrics,
     }
-
-
-def evaluate_esl_fpr(pipe: Pipeline, feature_cols: List[str], df: pd.DataFrame) -> Dict[str, float]:
-    """
-    Evaluate false-positive rate on ESL human essays vs native human essays.
-    """
-    results = {}
-    for cat_name, label_val in [('native', 'human_native'), ('esl', 'human_esl')]:
-        sub_df = df[df['label'] == label_val]
-        if len(sub_df) == 0:
-            results[f'{cat_name}_fpr'] = 0.0
-            results[f'{cat_name}_count'] = 0
-            continue
-
-        X = sub_df[feature_cols].fillna(0).values
-        preds = pipe.predict(X)
-        fp = (preds == 1).sum()
-        total = len(preds)
-        fpr = float(fp / total) if total > 0 else 0.0
-
-        results[f'{cat_name}_fpr'] = fpr
-        results[f'{cat_name}_count'] = total
-        results[f'{cat_name}_fp'] = int(fp)
-
-    return results
-
-
-def save_model(artifacts: Dict, path: str = 'models/logreg.joblib'):
-    """Save trained pipeline, feature columns, and importances to joblib file."""
-    model_path = Path(path)
-    model_path.parent.mkdir(parents=True, exist_ok=True)
-    joblib.dump({
-        'pipeline': artifacts['model'],
-        'feature_cols': artifacts['feature_cols'],
-        'feature_importance': artifacts['feature_importance'].to_dict('records'),
-    }, model_path)
-    print(f"Model successfully saved to {model_path}")
 
 
 def main():
@@ -149,25 +111,56 @@ def main():
     print("=" * 60)
 
     train_df, test_df, held_out = held_out_topic_split()
-    artifacts = train_logreg(train_df, test_df)
 
-    esl_metrics = evaluate_esl_fpr(artifacts['model'], artifacts['feature_cols'], test_df)
+    print(f"Train set: {len(train_df)} sentences from {train_df['essay_id'].nunique()} essays")
+    print(f"Test set: {len(test_df)} sentences from {test_df['essay_id'].nunique()} essays")
+    print(f"Held-out test topics: {held_out}")
 
-    save_model(artifacts)
+    results = train_logreg(train_df, test_df)
+    pipe = results['model']
+    feature_cols = results['feature_cols']
 
-    m = artifacts['metrics']
-    print(f"\n=== Held-Out Topic Test Results ({held_out}) ===")
-    print(f"Accuracy: {m['accuracy']:.3f}")
-    print(f"AI Precision: {m['precision_ai']:.3f} | Recall: {m['recall_ai']:.3f} | F1: {m['f1_ai']:.3f}")
-    print(f"Human Precision: {m['precision_human']:.3f} | Recall: {m['recall_human']:.3f} | F1: {m['f1_human']:.3f}")
-    print(f"Confusion Matrix (TN, FP / FN, TP):\n{np.array(m['confusion_matrix'])}")
+    # Save trained model pipeline artifact
+    model_dir = Path('models')
+    model_dir.mkdir(exist_ok=True)
+    model_path = model_dir / 'logreg.joblib'
+    joblib.dump({
+        'pipeline': pipe,
+        'feature_cols': feature_cols,
+        'feature_importance': results['feature_importance'].to_dict(orient='records'),
+        'metrics': results['metrics'],
+    }, model_path)
+    print(f"Model successfully saved to {model_path}\n")
 
-    print(f"\n=== ESL False-Positive Rate Comparison ===")
-    print(f"Native Human FPR: {esl_metrics.get('native_fpr', 0):.1%} ({esl_metrics.get('native_fp', 0)}/{esl_metrics.get('native_count', 0)})")
-    print(f"ESL Human FPR:    {esl_metrics.get('esl_fpr', 0):.1%} ({esl_metrics.get('esl_fp', 0)}/{esl_metrics.get('esl_count', 0)})")
+    # Evaluate held-out topic test metrics
+    metrics = results['metrics']
+    print(f"=== Held-Out Topic Test Results ({held_out}) ===")
+    print(f"Accuracy: {metrics['accuracy']:.3f}")
+    print(f"AI Precision: {metrics['precision_ai']:.3f} | Recall: {metrics['recall_ai']:.3f} | F1: {metrics['f1_ai']:.3f}")
+    print(f"Human Precision: {metrics['precision_human']:.3f} | Recall: {metrics['recall_human']:.3f} | F1: {metrics['f1_human']:.3f}")
+    print(f"Confusion Matrix (TN, FP / FN, TP):")
+    print(f"[[{metrics['tn']}  {metrics['fp']}]\n [{metrics['fn']}  {metrics['tp']}]]\n")
 
-    print("\n=== Top 15 Features by |Coefficient| ===")
-    print(artifacts['feature_importance'].head(15).to_string(index=False))
+    # Evaluate ESL FPR gap
+    esl_df = test_df[test_df['label'] == 'human_esl']
+    native_df = test_df[test_df['label'] == 'human_native']
+
+    if len(esl_df) > 0 and len(native_df) > 0:
+        X_esl = esl_df[feature_cols].fillna(0).values
+        X_native = native_df[feature_cols].fillna(0).values
+
+        esl_preds = pipe.predict(X_esl)
+        native_preds = pipe.predict(X_native)
+
+        esl_fpr = (esl_preds == 1).mean()
+        native_fpr = (native_preds == 1).mean()
+
+        print("=== ESL False-Positive Rate Comparison ===")
+        print(f"Native Human FPR: {native_fpr*100:.1f}% ({sum(native_preds==1)}/{len(native_preds)})")
+        print(f"ESL Human FPR:    {esl_fpr*100:.1f}% ({sum(esl_preds==1)}/{len(esl_preds)})\n")
+
+    print("=== Top 15 Features by |Coefficient| ===")
+    print(results['feature_importance'].head(15).to_string(index=False))
 
 
 if __name__ == '__main__':

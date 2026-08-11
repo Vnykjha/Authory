@@ -143,32 +143,22 @@ class CrossPerplexityComputer:
         if observer_results is None:
             observer_results = self.observer.process_essay(essay_text, sentence_spans)
 
-        # Compute essay-level cross-perplexity (more efficient than per-sentence)
-        # For v1, use essay-level cross-perplexity as a global feature
-        # and compute per-sentence ratio using sentence-level observer perplexity
-        essay_cross_ppl = self.compute_cross_perplexity(essay_text)
-
-        # Optionally compute per-sentence cross-perplexity for more granular features
-        # (Commented out for performance; uncomment if needed)
-        # sent_cross_ppls = []
-        # for sent_text, _, _ in sentence_spans:
-        #     sent_cross_ppls.append(self.compute_cross_perplexity_per_sentence(sent_text))
-
         results = []
         for obs in observer_results:
+            sent_text = obs["text"]
             sent_ppl = obs["perplexity"]
 
-            # Use essay-level cross-perplexity for ratio computation
-            # This is a practical approximation; true Binoculars uses per-sentence
-            ratio = sent_ppl / essay_cross_ppl if essay_cross_ppl > 0 else 1.0
+            # Compute true per-sentence cross-perplexity for granular highlighting
+            sent_cp = self.compute_cross_perplexity(sent_text)
+            ratio = sent_ppl / sent_cp if sent_cp > 0 else 1.0
 
             results.append({
                 "sentence_idx": obs["sentence_idx"],
-                "text": obs["text"],
+                "text": sent_text,
                 "start_char": obs["start_char"],
                 "end_char": obs["end_char"],
                 "perplexity": sent_ppl,
-                "cross_perplexity": essay_cross_ppl,
+                "cross_perplexity": sent_cp,
                 "binoculars_ratio": ratio,
             })
 
