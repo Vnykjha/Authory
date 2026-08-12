@@ -42,3 +42,10 @@ htmlcov/
 # Environment variables
 .env
 .env.local
+
+# Large Model Binaries (>100MB)
+*.safetensors
+*.bin
+*.pt
+*.onnx
+models/transformer_sent_clf/

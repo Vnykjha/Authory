@@ -11,6 +11,7 @@ from pathlib import Path
 from typing import List, Dict, Optional
 
 from src.ai_essay_detector.signals.extract import FeatureExtractor, SentenceFeatures
+from src.classifier.transformer_classifier import ContextTransformerClassifier
 
 
 # Plain-language reason mapping for model features
@@ -42,7 +43,7 @@ REASON_MAP = {
 
 class EssayClassifier:
     """
-    Inference class that wraps trained model pipeline and feature extractor.
+    Inference class that wraps trained model pipeline, feature extractor, and local transformer classifier.
     """
 
     def __init__(self, model_path: str = 'models/logreg.joblib', device: str = 'cpu'):
@@ -55,6 +56,19 @@ class EssayClassifier:
         self.feature_cols = data['feature_cols']
         self.feature_importance = pd.DataFrame(data['feature_importance'])
         self.extractor = FeatureExtractor(device=device)
+
+        # Load local Transformer Sequence Classifier if available
+        transformer_path = Path("models/transformer_sent_clf")
+        if transformer_path.exists():
+            print("Loading fine-tuned local Context Transformer Classifier...")
+            self.transformer_clf = ContextTransformerClassifier(str(transformer_path), device=device)
+        else:
+            print("Initializing Context Transformer Classifier...")
+            try:
+                self.transformer_clf = ContextTransformerClassifier(device=device)
+            except Exception as e:
+                print(f"Notice: Transformer classifier not initialized: {e}")
+                self.transformer_clf = None
 
     def predict_features(self, feat_dict: Dict[str, float]) -> float:
         """Predict AI probability for a feature dictionary."""
@@ -108,9 +122,19 @@ class EssayClassifier:
         Process essay text, extract sentence features, and return per-sentence predictions & reasons.
         """
         sentence_features = self.extractor.extract_essay(essay_text, essay_id, 'unknown', topic)
+        sentence_texts = [sf.text for sf in sentence_features]
+
+        # Extract sequence probabilities from local Transformer classifier if loaded
+        transformer_probs = []
+        if self.transformer_clf is not None:
+            try:
+                transformer_probs = self.transformer_clf.predict_sentence_probabilities(sentence_texts)
+            except Exception as e:
+                print(f"Warning: Transformer inference skipped: {e}")
+                transformer_probs = []
 
         results = []
-        for sf in sentence_features:
+        for i, sf in enumerate(sentence_features):
             feat_dict = {
                 'ppl_perplexity': sf.ppl_perplexity,
                 'ppl_mean_logprob': sf.ppl_mean_logprob,
@@ -143,8 +167,17 @@ class EssayClassifier:
                 'lex_sent_ai_phrase_count': sf.lex_sent_ai_phrase_count,
             }
 
-            ai_proba = self.predict_features(feat_dict)
+            stat_proba = self.predict_features(feat_dict)
             reasons = self.extract_top_reasons(feat_dict)
+
+            if i < len(transformer_probs):
+                trans_p = transformer_probs[i]
+                # Multi-head ensemble blend: 65% Transformer, 35% Statistical
+                ai_proba = 0.65 * trans_p + 0.35 * stat_proba
+                if trans_p >= 0.70:
+                    reasons.insert(0, "sentence context aligns strongly with LLM generator sequence patterns (e.g. Gemini / GPT-4)")
+            else:
+                ai_proba = stat_proba
 
             results.append({
                 'sentence_idx': sf.sentence_idx,
@@ -152,7 +185,7 @@ class EssayClassifier:
                 'start_char': sf.start_char,
                 'end_char': sf.end_char,
                 'ai_probability': round(ai_proba, 4),
-                'reasons': reasons,
+                'reasons': reasons[:3],
             })
 
         return results
