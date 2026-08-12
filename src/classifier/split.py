@@ -7,28 +7,19 @@ Excludes ESL human essays from training set to measure false-positive bias in te
 import pandas as pd
 import numpy as np
 from pathlib import Path
-from typing import Tuple, List, Optional
+from typing import Tuple, List, Optional, Union
 
 
 def held_out_topic_split(
-    features_path: str = 'data/features.csv',
+    features_path: Union[str, pd.DataFrame] = 'data/features.csv',
     metadata_path: str = 'data/essay_metadata.csv',
     test_topics: Optional[List[str]] = None,
     random_seed: int = 42
 ) -> Tuple[pd.DataFrame, pd.DataFrame, List[str]]:
-    """
-    Split dataset by topic for honest generalization evaluation.
-
-    Args:
-        features_path: Path to data/features.csv.
-        metadata_path: Path to data/essay_metadata.csv.
-        test_topics: List of topic names to hold out for testing. If None, picks randomly.
-        random_seed: Random seed for reproducibility.
-
-    Returns:
-        Tuple of (train_df, test_df, test_topics)
-    """
-    df = pd.read_csv(features_path)
+    if isinstance(features_path, pd.DataFrame):
+        df = features_path.copy()
+    else:
+        df = pd.read_csv(features_path)
 
     # Ensure topic column exists; merge from metadata if missing in features.csv
     if 'topic' not in df.columns or df['topic'].isnull().all():

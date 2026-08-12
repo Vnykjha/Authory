@@ -1,8 +1,7 @@
-# source: hybrid_generation_placeholder
-# base_essay: essay_009.txt
-# polish_model: TODO: run through LLM
-# prompt: Improve this college admissions essay for clarity, flow, and impact. Keep the same core story and voice.
 # category: hybrid
+# source_human: essay_009.txt
+# source_ai: essay_029.txt
+# topic: unknown
 
 Do you ever wonder how it would be if we lived in a car free environment where cars where limited. There would not be any traffic jams,or heavy smog,people wont have to worry about gas prices. Our environment would be cleaner and better for us to live in. There are so many advantages from limiting car usage.
 

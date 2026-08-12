@@ -1,12 +1,11 @@
-# source: hybrid_generation_placeholder
-# base_essay: essay_002.txt
-# polish_model: TODO: run through LLM
-# prompt: Improve this college admissions essay for clarity, flow, and impact. Keep the same core story and voice.
 # category: hybrid
+# source_human: essay_002.txt
+# source_ai: essay_022.txt
+# topic: unknown
 
 The Electoral College is a process that has been used for presidential elections since the Founding Fathers established it in the constitution. This system does not necessary give the voters a direct vote, but rather a vote for a slate of electors that vote for them. The voters entrust that their elected slate will vote for their favored presidential candidate. It brings up the argument whether this system of voting should be changed or kept. The Electoral College has some of its good points, but over all, it needs to be changed. Voters need a direct say in their vote, and this system turns off the interest of potential voters.
 
-The voters of the United states should have the ability to directly vote for who they want as President. After all, the people are what make up the country and should have say. "It's official: The electoral college is unfair, outdated, and irrational," says Bradford Plumer in The Indefensible Electoral College: Why even the bestlaid defenses of the system are wrong.
+For starters, the fourth year of high school provides additional time for students to enhance their education. Electives and extra study courses can be taken, allowing students to further specialize in their areas of interest. Extracurricular groups, such as student government or volunteer organizations, provide the opportunity to work together with like-minded peers. These activities offer a highly enriching learning experience, and give students the tools they need to achieve their aspirations.
 
 This means that the Electoral College is unfair to the people because the slate they vote for might not even vote for their candidate. Also, in the same article, Plumer states, "Consider that state legislatures are technically responsible for picking electors, and that those electors could always defy the will of the people." This means that there is a chance that the electors could vote for whoever they please.
 

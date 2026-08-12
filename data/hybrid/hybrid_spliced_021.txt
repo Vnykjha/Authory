@@ -1,8 +1,7 @@
-# source: hybrid_generation_placeholder
-# base_essay: essay_001.txt
-# polish_model: TODO: run through LLM
-# prompt: Improve this college admissions essay for clarity, flow, and impact. Keep the same core story and voice.
 # category: hybrid
+# source_human: essay_001.txt
+# source_ai: essay_021.txt
+# topic: unknown
 
 Many people do not rely on their cars to take them places anymore in Vauban, Germany. vaughn's streets are completely "carfree" Source 1 Paragraph 2. 70 percent of vaughn's families do not own cars. They are allowed to own cars, but they have to park it at a car garage that they also have to pay for. Heidrun Walter, a mother of two says, "When I had a car I was always tense. I'm much happier this way." These are only a few examples of the advantages of not owning a car or limited car use. Because of this new trend, there are stores, malls, and building closer to people's homes instead of on highways and an hour away. This way, people don't have to walk twenty miles to get to the nearest store.
 

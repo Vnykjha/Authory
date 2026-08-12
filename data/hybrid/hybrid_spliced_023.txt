@@ -1,12 +1,11 @@
-# source: hybrid_generation_placeholder
-# base_essay: essay_003.txt
-# polish_model: TODO: run through LLM
-# prompt: Improve this college admissions essay for clarity, flow, and impact. Keep the same core story and voice.
 # category: hybrid
+# source_human: essay_003.txt
+# source_ai: essay_023.txt
+# topic: unknown
 
 The Electoral College has been a part of America since the beginning, but is it fair? Our country is a Democracy, which means " For the People" or " By the People". The Electoral College is not By the People. Yes, it has historical value, but it no longer is what a Democracy is because of population changes and states being added to the country.
 
-To begin with, Source 2 states " The Electoral College is unfair to voters. Because of the winnertakeall system in each state." There is a popularity vote and then the Electoral College vote, most citizens think that the popularity vote will win because that candidate is the person that the people chose. That is not the case. It just depends on basically how big your state is and how popular a candidate is in that state. The population is the biggest factor that the candidates think about because if they win that state they are closer to winning the election. There are people who want to abolish the Electoral College including past presidents Richard Nixon and Jimmy Carter. It really just isn't fair to the people that who they vote for and who wins the popular vote may not have a chance to win because heshe did not get the Electoral College votes.
+When children are taught to compete, they often lose sight of the important things. They forget how to cooperate and how to share. Competition can also lead to frustration and anger, which are not healthy emotions for children. In the long run, it is better for children to learn to cooperate, as this will help them to be successful in life.
 
 In addition, Source 3 states " The advocates of this position are correct in arguing that the Electoral College method is not democratic in a modern sense...it is the electorss who vote for a president, no the people." When you vote in your state you are actually voting for an electors and not the presidential candidate. In 2000 the popular vote was higher for Al Gore than it was for George Bush, but Bush won the presidential election because he had a higher number of electorss in the electorsal college. In a real democracy Gore would have won because of the fact he was more popular. The people want to vote directly for the candidate they want not for some person that has been trusted to vote for a party's nominee.
 

@@ -1,0 +1,12 @@
+# category: hybrid
+# source_human: essay_013.txt
+# source_ai: essay_013.txt
+# topic: Art
+
+It is observed in many countries that people are adopting western-style clothes instead of traditional attire. There are certain reasons behind this movement and I BELIEVE it is detrimental to host nations.
+
+It is helpful for schools to create programs that pair up older and younger students, as these programs create mutual benefits for the students. The interactions between the students of different ages foster relationships that would not have otherwise been made, and the different points of view in these relationships often lead to unique perspectives that contribute to educational growth for everyone involved.
+
+The aforementioned reasons can help explain the fact that westernization in clothing diversifies the host culture, especially conventional clothing. In other words, it aggravates the lack of cultural diversity. For instance, the Vietnamese clothing etiquette which requires people to wear ao dai on formal occasions is significantly affected by the adoption of suits and ties from western countries. In addition, the development also spreads the impact of consumerism, especially in clothing, because ubiquitous advertisements of western brands may prompt the native to purchase their products, which can also shift their focus to these garments.
+
+In conclusion, the effects of globalization that facilitate the introduction of western fashion trends and the virtual world on social media are responsible for the fact that people increasingly opt for them rather than traditional dressing. Nevertheless, this negative tendency is adverse to the locals because of the reduction in cultural diversity and the rise of consumerism.

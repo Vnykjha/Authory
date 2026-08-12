@@ -55,6 +55,10 @@ class SentenceFeatures:
     # Burstiness (local context window ±2 sentences)
     local_burst_ppl_cv: float
     local_burst_ppl_iqr: float
+    local_ppl_mean: float
+    local_ppl_min: float
+    local_ppl_max: float
+    local_ppl_delta_prev: float
 
     # Lexical (essay-level)
     lex_ttr: float
@@ -149,9 +153,13 @@ class FeatureExtractor:
                 burst_ppl_cv=burst_feats.get('burst_ppl_cv', 0),
                 burst_ppl_iqr=burst_feats.get('burst_ppl_iqr', 0),
 
-                # Local burstiness
+                # Local burstiness & context window
                 local_burst_ppl_cv=lb.get('local_ppl_cv', 0),
                 local_burst_ppl_iqr=lb.get('local_ppl_iqr', 0),
+                local_ppl_mean=lb.get('local_ppl_mean', 0),
+                local_ppl_min=lb.get('local_ppl_min', 0),
+                local_ppl_max=lb.get('local_ppl_max', 0),
+                local_ppl_delta_prev=lb.get('local_ppl_delta_prev', 0),
 
                 # Lexical (essay-level)
                 lex_ttr=lex_feats.get('lex_ttr', 0),

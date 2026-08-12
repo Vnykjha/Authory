@@ -1,12 +1,11 @@
-# source: hybrid_generation_placeholder
-# base_essay: essay_007.txt
-# polish_model: TODO: run through LLM
-# prompt: Improve this college admissions essay for clarity, flow, and impact. Keep the same core story and voice.
 # category: hybrid
+# source_human: essay_007.txt
+# source_ai: essay_027.txt
+# topic: unknown
 
 Our world has became a world that revolves around technology and cars, and it's now starting to show how the affect of these products are tareing away our ozone. Limiting the amount of air pollution can help decease the green house affect.
 
-All over the world people use vehicle to travel all over the place for their daily needs. People are not aware of how close they really are to the things they drive to. If we could just eliminate the amount of usage we use on cars and walk to the places near us we can help with future damage to the earth. In the excerpt Paris bans driving due to smog ,Robert Duffer shares how paris banned there cars for the better of the world. He states "after days of nearrecord pollution,paris enforced a partial driving ban to clear the air of the global city". By banning the car uses they have made people healthier and the air much cleaner.
+However, some people argue that life was better when technology was simpler. They argue that we are now too reliant on technology and that it is making us less capable of doing things for ourselves. For example, if we can't figure out how to do something on our smartphone, we are likely to give up and ask someone else for help.
 
 What we dont know is that we use about 100 to 150 gallons of gas a week, and its taking its toll. The excerpt paris bans driving due to smog states that "last week paris had 147 micrograms of particulate matter am per cubic meter compared with 114 in brussels and 79.9 in london, reuters found." Meaning that we are using so much more than we need.
 

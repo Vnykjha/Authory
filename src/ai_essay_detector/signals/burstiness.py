@@ -146,9 +146,15 @@ def sentence_context_burstiness(
 
         mean = float(arr.mean()) if len(arr) > 0 else 0.0
         std = float(arr.std()) if len(arr) > 0 else 0.0
+        curr_ppl = sentence_perplexities[i]
+        prev_ppl = sentence_perplexities[i - 1] if i > 0 else curr_ppl
 
         results.append({
             'sentence_idx': i,
+            'local_ppl_mean': mean,
+            'local_ppl_min': float(arr.min()) if len(arr) > 0 else 0.0,
+            'local_ppl_max': float(arr.max()) if len(arr) > 0 else 0.0,
+            'local_ppl_delta_prev': float(abs(curr_ppl - prev_ppl)),
             'local_ppl_cv': float(std / mean) if mean > 0 else 0.0,
             'local_ppl_iqr': float(np.percentile(arr, 75) - np.percentile(arr, 25)) if len(arr) > 0 else 0.0,
         })
